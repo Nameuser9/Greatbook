@@ -1,4 +1,4 @@
-﻿int a = 5 , b = 7;
+﻿int a = 2 , b = 10;
 if (a < b)
 {
     Console.Write(b);

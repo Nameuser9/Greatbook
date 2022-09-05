@@ -1,10 +1,13 @@
 ﻿Console.WriteLine("Введите число");
-int a = Convert.ToInt32(Console.ReadLine());
-if ((a % 2) <= 0)
+double a = Convert.ToDouble(Console.ReadLine()) , b = 2 , i = 0;
+while ( i < a / 2)
 {
-  Console.WriteLine("Число чётное");  
+Console.WriteLine(b);
+b = b + 2;
+i++;
 }
-else
-{
-    Console.WriteLine("Число нечётное");
-}
+Console.WriteLine("РЕЗУЛЬТАТ");
+
+
+
+

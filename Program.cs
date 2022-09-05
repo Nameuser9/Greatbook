@@ -1,21 +1,10 @@
-﻿Console.WriteLine("Введите 3 числа");
-double a = Convert.ToDouble(Console.ReadLine()) , b = Convert.ToDouble(Console.ReadLine()) , c = Convert.ToDouble(Console.ReadLine());
-double max = a;
-if (a > b) 
+﻿Console.WriteLine("Введите число");
+int a = Convert.ToInt32(Console.ReadLine());
+if ((a % 2) <= 0)
 {
-    max = a;
+  Console.WriteLine("Число чётное");  
 }
 else
 {
-    max = b;
+    Console.WriteLine("Число нечётное");
 }
-if (max > c)
-{
-    Console.Write (max);
-}
-else
-{
-    max = c;
-    Console.Write (max);
-}
-Console.Write (" - самое большое число");

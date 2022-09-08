@@ -1,13 +1,7 @@
-﻿Console.WriteLine("Введите число");
-double a = Convert.ToDouble(Console.ReadLine()) , b = 2 , i = 0;
-while ( i < (a - 1) / 2)
-{
-Console.WriteLine(b);
-b = b + 2;
-i++;
-}
-Console.WriteLine("РЕЗУЛЬТАТ");
-
-
-
-
+﻿Console.WriteLine("Введите трёх значное число");
+int a = Convert.ToInt32(Console.ReadLine());
+//int n1 = a / 100;
+int n2 = (a % 100) / 10;
+//int n3 = (a % 100) % 10;
+Console.WriteLine("Второе число = ");
+Console.Write(n2);
